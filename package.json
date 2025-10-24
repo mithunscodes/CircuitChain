@@ -1,0 +1,16 @@
+{
+  "name": "circuit-chain-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "make-txs": "node scripts/makeTxs.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.16.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
